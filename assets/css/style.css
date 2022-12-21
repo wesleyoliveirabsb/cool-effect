@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    background-color: black;
+    /*altura para 100%¨do viewport*/
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+/*problemas as cartas não ficam no centro da tela*/
+.carta-grande{  
+    width: 30vmin;
+    aspect-ratio: 5/7;
+    background-color: rgba(168, 145, 145, 0.267);
+    border-radius: 1vmin;
+    position: absolute;
+} 
+.carta-grande:nth-child(1){     
+    transform: translateX(-8%) rotate(-2deg);    
+}
+.carta-grande:nth-child(2){
+    transform: rotate(5deg);
+}
+.carta-grande:nth-child(3){
+    background-color: rgba(89, 4, 247, 0.445);
+    transform: rotate(5deg);
+}
+.carta-grande:nth-child(4){
+transform: translateX(-15%) rotate(3deg);
+
+}
