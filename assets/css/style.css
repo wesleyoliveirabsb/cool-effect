@@ -7,7 +7,10 @@ body{
     place-items: center;
 }
 
-/*problemas as cartas não ficam no centro da tela*/
+/*inicialmente as cartas não estavam centralizadas na tela, resolvi o problema botando as especificações do tamanho diretametne no grupo com todas as cartas, já que elas estão posicionadas absolutamente e não teriam mais efeito no tamanho  do wraper, nesse caso o grupo*/
+.grupo-cartas{width: 30vmin;
+    aspect-ratio: 5/7; } 
+    
 .carta-grande{  
     width: 30vmin;
     aspect-ratio: 5/7;
